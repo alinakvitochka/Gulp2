@@ -1,0 +1,14 @@
+{
+  "name": "gulp2",
+  "version": "1.0.0",
+  "description": "Цей проєкт демонструє використання Gulp для автоматизації задач розробки. Він включає компіляцію SCSS у CSS, автоматичне оновлення браузера, додавання вендорних префіксів, мінімізацію CSS та інші функції.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^5.0.0"
+  }
+}
