@@ -1,0 +1,97 @@
+// Современные стили с фонами и переходами текста
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2196f3, #e3f2fd);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 2s ease-in-out;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #f1f1f1;
+    margin-top: 10px;
+    animation: slideIn 2s ease-in-out;
+}
+
+main {
+    max-width: 800px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    animation: zoomIn 1.5s ease-in-out;
+}
+
+main h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1976d2;
+    animation: fadeIn 2s ease-in-out;
+}
+
+main p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    animation: fadeIn 2s ease-in-out;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #ffffff;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
